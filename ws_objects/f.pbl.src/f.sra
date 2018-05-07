@@ -16,19 +16,22 @@ end type
 global f f
 
 on f.create
-appname = "f"
-message = create message
-sqlca = create transaction
-sqlda = create dynamicdescriptionarea
-sqlsa = create dynamicstagingarea
-error = create error
+appname="f"
+message=create message
+sqlca=create transaction
+sqlda=create dynamicdescriptionarea
+sqlsa=create dynamicstagingarea
+error=create error
 end on
 
 on f.destroy
-destroy( sqlca )
-destroy( sqlda )
-destroy( sqlsa )
-destroy( error )
-destroy( message )
+destroy(sqlca)
+destroy(sqlda)
+destroy(sqlsa)
+destroy(error)
+destroy(message)
 end on
+
+event close;int i = 0
+end event
 
