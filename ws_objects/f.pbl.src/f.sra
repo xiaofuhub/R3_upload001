@@ -12,6 +12,8 @@ end forward
 
 global type f from application
 string appname = "f"
+boolean toolbartext = true
+boolean righttoleft = true
 end type
 global f f
 
