@@ -32,6 +32,6 @@ destroy(error)
 destroy(message)
 end on
 
-event close;int i = 0
+event close;int i = 3
 end event
 
