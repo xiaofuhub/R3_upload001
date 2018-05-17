@@ -33,7 +33,7 @@ end on
 
 type cb_1 from commandbutton within abc
 integer x = 439
-integer y = 620
+integer y = 608
 integer width = 457
 integer height = 132
 integer taborder = 10
