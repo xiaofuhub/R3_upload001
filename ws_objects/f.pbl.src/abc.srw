@@ -7,7 +7,7 @@ end type
 end forward
 
 global type abc from window
-integer width = 4100
+integer width = 4110
 integer height = 1648
 boolean titlebar = true
 string title = "Untitled"
